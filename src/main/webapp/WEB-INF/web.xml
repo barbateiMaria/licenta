@@ -17,5 +17,4 @@
 		<servlet-name>springMVC</servlet-name>
 		<url-pattern>*.htm</url-pattern><!-- pt redirect, toate ce se temrina cu .htm si servlet name - > dispatcher servlet -->
 	</servlet-mapping>
-
 </web-app>

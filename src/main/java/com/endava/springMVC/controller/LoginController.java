@@ -66,9 +66,8 @@ public class LoginController {
 		System.out.println("User logged out sucessfully!!");
 		ModelAndView modelView = new ModelAndView();
 		modelView.setViewName("login");
-		modelView.addObject("infoMessage", "User logged out successfully!!");
+		modelView.addObject("infoMessage", "Administrator logout successful!!");
 		
 		return modelView;
 	}
-
 }

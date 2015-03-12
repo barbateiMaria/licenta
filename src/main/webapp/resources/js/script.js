@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+
+document.getElementById('nav02').innerHTML = "<nav class='navbar navbar-inverse' role='navigation'>"
+		+ "<div class='navbar-header'>"
+		+ "<a class='navbar-brand' href='#'>Event Page-Generator</a>"
+		+ "</div>"
+		+ "<div>"
+		+ "<ul class='nav navbar-nav'>"
+		+ "   <li ><a href='#'>Home</a></li>"
+		+ " <li class='dropdown'>"
+		+ " <a href='#' data-toggle='dropdown' class='dropdown-toggle'>Page Content<b class='caret'></b></a>" 
+		+ "<ul class='dropdown-menu'>"
+		+ " <li><a href='#'>Create Event</a></li>"
+		+ "<li><a href='manageevent.htm'>Manage Event</a></li>"
+		+ "</ul>"
+		+ "</li>"
+		+ "    <li class='dropdown' >"
+		+ " <a href='#' data-toggle='dropdown' class='dropdown-toggle'>Page Desgin<b class='caret'></b></a>"
+		+ "<ul class='dropdown-menu'>"
+		+ " <li><a href='chooseMenuFeatures.htm'>Page Structure</a></li>"
+		+ "<li><a href=''>Page Theme</a></li>"
+		+ "</ul>"
+		+ "</li>"
+		+ " <li class='dropdown menu-right'>"
+		+ " <a href='#' data-toggle='dropdown' class='dropdown-toggle'>Administrator<b class='caret'></b></a>"
+		+ "<ul class='dropdown-menu'>"
+		+ "<li><a href='#'>My Profile</a></li>"
+		+ "<li class='divider'></li>"
+		+ "<li><a href='logout.htm'>Logout</a></li>" + "</ul>" + "</li>";
++"</ul>" + "</div>" + "</nav>"
